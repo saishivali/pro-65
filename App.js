@@ -22,23 +22,6 @@ export default class App extends React.Component {
 
   speak = () => {
     var thingToSay = this.state.name;
-
-//CHOOSE THE CORRECT TERNARY OPERATION
-    // this.state.name === ''
-    //   : alert('Please Enter a word')
-    //   ? Speech.speak(thingToSay);
-
-    // this.state.name === ''
-    //   ? alert
-    //   : Speech.speak();
-
-    // this.state.name === 
-    //    alert('Please Enter a word')
-    //    Speech.speak(thingToSay);
-
-    // this.state.name === ''
-      // ? alert('Please Enter a word')
-       //: Speech.speak(thingToSay);
   };
 
   render() {
