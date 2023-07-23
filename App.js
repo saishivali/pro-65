@@ -22,6 +22,7 @@ export default class App extends React.Component {
 
   speak = () => {
     var thingToSay = this.state.name;
+    Speech.speak(thinkToSay);
   };
 
   render() {
